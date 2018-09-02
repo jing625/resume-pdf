@@ -39,11 +39,11 @@ div#resume .address {
     border-bottom: 3px solid #999;
 }
 
-.works, .works-canvas {
+.works, .works-canvas, .works-music {
     border-bottom: 1px dashed #999;
 }
 
-.works-canvas {
+.works-canvas, .works-music {
     position: relative;
 }
 
@@ -55,7 +55,15 @@ div#resume .address {
     color: #666;
 }
 
-.works-canvas img {
+.works-music .code {
+    position: absolute;
+    top: 30px;
+    right: 184px;
+    font-size: 14px;
+    color: #666;
+}
+
+.works-canvas img, .works-music img {
     position: absolute;
     max-width: 75px;
     top: 2px;
