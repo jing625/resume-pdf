@@ -40,14 +40,30 @@ div#resume .address {
 }
 
 .gitHubLink {
-    padding-bottom: 10px;
+    padding-bottom: 16px;
+    position: relative;
 }
 
-.works, .works-canvas, .works-music, .works-pikachu, .works-resume {
+.gitHubLink .code{
+    position: absolute;
+    top: 10px;
+    left: 182px;
+    font-size: 14px;
+    color: #666;
+}
+
+.gitHubLink img{
+    position: absolute;
+    max-width: 75px;
+    top: -18px;
+    right: 240px;
+}
+
+.works-cnode, .works-canvas, .works-music, .works-pikachu, .works-resume {
     border-bottom: 1px dashed #999;
 }
 
-.works-canvas, .works-music, .works-pikachu, .works-resume {
+.works-canvas, .works-music, .works-pikachu, .works-resume,.works-cnode {
     position: relative;
 }
 
@@ -81,8 +97,15 @@ div#resume .address {
     font-size: 14px;
     color: #666;
 }
+.works-cnode .code{
+    position: absolute;
+    top: 30px;
+    right: 184px;
+    font-size: 14px;
+    color: #666;
+}
 
-.works-canvas img, .works-music img, .works-pikachu img, .works-resume img {
+.works-canvas img, .works-music img, .works-pikachu img, .works-resume img, .works-cnode img {
     position: absolute;
     max-width: 75px;
     top: 2px;
