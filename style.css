@@ -46,7 +46,7 @@ div#resume .address {
 
 .gitHubLink .code{
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 182px;
     font-size: 14px;
     color: #666;
@@ -55,7 +55,7 @@ div#resume .address {
 .gitHubLink img{
     position: absolute;
     max-width: 75px;
-    top: -18px;
+    top: -16px;
     right: 240px;
 }
 
